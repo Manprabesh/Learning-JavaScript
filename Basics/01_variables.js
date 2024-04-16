@@ -3,5 +3,7 @@ prefer koribi var'k use nokoribola karon ee function ru block level scopet probl
 Instead of it use let and const
 */
 
-let name="ManBash";
+let NickName="ManBash";
 const religion="Sanatan"
+
+console.table([NickName,religion]);
