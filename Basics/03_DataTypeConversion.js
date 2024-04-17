@@ -32,6 +32,8 @@ let address="11";
 console.log(Boolean(address))
 //""=>false, "ayvalue"=>true
 
+// *************************operations**************************
+
 console.log(2**3)
 // console.log((((3+3)*2)/4))=>3
 let gameCounter=200;
