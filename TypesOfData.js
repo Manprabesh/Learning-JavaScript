@@ -38,4 +38,4 @@ let obj={
     phn_No:99999,
 }
 
-console.log(typeof obj)
+console.log(typeof obj)//=>object
