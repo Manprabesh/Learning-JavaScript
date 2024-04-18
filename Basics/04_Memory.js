@@ -6,6 +6,7 @@ let peopleAge=age+1;
 
 console.table([age,peopleAge])
 
+//under Heap, the referrence is stored/shared, manipulating in one variable affect the other variable
 let data={
     user:"yourName@gmail.com",
     upi_Id:"@ybl3433"
