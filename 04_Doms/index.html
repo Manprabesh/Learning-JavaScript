@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <div class="day">Monday
+            <!-- <div>ijfoijf</div> -->
+        </div>
+        <div class="day">Tuesday</div>
+        <div class="day">wdnesday</div>
+        <div class="day">Thursday</div>
+    </div>
+
+
+    <script>
+        //   let parent=  document.querySelector("#parent");
+        // let day=document.querySelector(".day")
+
+        //   for(let i=0;i< parent.children.length;i++){
+        //     console.log(parent.children[i].innerHTML)
+        //   }
+
+        //   parent.children[1].style.color="orange"
+        //   console.log(parent.childNodes)
+        // //   console.log(parent.Nodes)=>undefined
+        //   console.log(day.childNodes)
+
+        let div = document.createElement("div")
+        console.log(div)
+        div.className="main"
+        div.id="Days"
+        div.setAttribute("title","The Morning star");
+        div.style.backgroundColor="green";
+        div.style.color="white"
+        div.innerText="The billionaire"
+        document.body.appendChild(div)
+    </script>
+</body>
+
+</html>

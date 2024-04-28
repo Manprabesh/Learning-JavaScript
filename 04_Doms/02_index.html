@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="  background-color: #121211; color: #ffff;">
+    <ul id="language">
+        <li>Javascript</li>
+        <li>Golang</li>
+    </ul>
+
+    <script>
+
+        const parent = document.querySelector('#language')
+        const child = document.querySelector('li')
+
+        function addelem(elem) {
+            const li = document.createElement('li')
+            li.innerHTML = elem
+            // console.log(innerHTML)
+            // p.innerHTML=elem;
+            parent.appendChild(li)
+            // parent.appendChild(p)
+        }
+
+        addelem("python")
+
+        function optimize(list) {
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(list))
+            parent.appendChild(li)
+        }
+
+        optimize("Ruby")
+
+        //Edit
+
+        const selet=document.querySelector("li:nth-child(4)")
+        //selet.outerHTMl="<li> fdfdf</li>"
+        const li=document.createElement('li');
+        li.textContent="Mojo"
+        selet.replaceWith(li)
+
+        //remove element
+        const remove=document.querySelector("li:first-child")
+        remove.remove()
+    </script>
+</body>
+
+</html>
